@@ -16,11 +16,11 @@ class _LibraryScreenState extends State<LibraryScreen> {
   int _currentIndex = 0;
 
   final List<Widget> _tabs = [
-    SongsTab(),
-    ArtistsTabs(),
-    AlbumsTabs(),
-    GenresTab(),
-    PlaylistsTab()
+    const SongsTab(),
+    const ArtistsTabs(),
+    const AlbumsTabs(),
+    const GenresTab(),
+    const PlaylistsTab()
   ];
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,7 @@ class _LibraryScreenState extends State<LibraryScreen> {
       length: _tabs.length,
       child: Scaffold(
         appBar: AppBar(
-          bottom: TabBar(
+          bottom: const TabBar(
             tabs: [
               Tab(icon: Icon(Icons.music_note), text: 'Songs'),
               Tab(icon: Icon(Icons.person_2), text: 'Artists'),
