@@ -40,20 +40,11 @@ class _MyHomePageState extends State<MyHomePage> {
     SettingsScreen()
   ];
 
-  // @override
-  // Widget build(BuildContext context) {
-  //   return Scaffold(
-  //     appBar: AppBar(
-  //       backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-  //       title: Text(widget.title),
-  //     ),
-  //     body: // This trailing comma makes auto-formatting nicer for build methods.
-  //   );
-  // }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text('Vibes Music'),
       ),
       body: _tabs[_currentIndex],
