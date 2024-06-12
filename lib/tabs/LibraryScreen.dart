@@ -36,8 +36,8 @@ class _LibraryScreenState extends State<LibraryScreen> {
   Widget build(BuildContext context) {
     final List<Widget> _tabs = [
       SongsTab(jsonData: jsonData),
-      ArtistsTabs(jsonData: jsonData),
-      AlbumsTabs(jsonData: jsonData),
+      ArtistsTab(jsonData: jsonData),
+      AlbumsTab(jsonData: jsonData),
       GenresTab(jsonData: jsonData),
       PlaylistsTab(jsonData: jsonData),
     ];

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class AlbumsTabs extends StatefulWidget {
-  const AlbumsTabs({super.key, required List jsonData});
+class AlbumsTab extends StatefulWidget {
+  const AlbumsTab({super.key, required List jsonData});
 
   @override
-  State<AlbumsTabs> createState() => _AlbumsTabsState();
+  State<AlbumsTab> createState() => _AlbumsTabState();
 }
 
-class _AlbumsTabsState extends State<AlbumsTabs> {
+class _AlbumsTabState extends State<AlbumsTab> {
   @override
   Widget build(BuildContext context) {
     return const Placeholder();
