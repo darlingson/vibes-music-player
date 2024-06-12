@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ArtistsTabs extends StatefulWidget {
-  const ArtistsTabs({super.key});
+  const ArtistsTabs({super.key, required List jsonData});
 
   @override
   State<ArtistsTabs> createState() => _ArtistsTabsState();

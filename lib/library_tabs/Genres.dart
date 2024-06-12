@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class GenresTab extends StatefulWidget {
-  const GenresTab({super.key});
+  const GenresTab({super.key, required List jsonData});
 
   @override
   State<GenresTab> createState() => _GenresTabState();
